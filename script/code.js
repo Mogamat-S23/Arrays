@@ -38,24 +38,31 @@
 // });
 
 
-let bestfriends = ['Jarred john Isaacs' , 'Mogamat Muddathir Dawood' , 'Marshalino Marcelo Jankowski', 'Abdus-Samad Charles' , 'Ikhlaas Mohhammed Rawoot' , ' Abdul Raees Benny ' , ' Dwayne Micheal Carter' , 'Gabriella Wilson' , 'Nikki Manaj ', 'j Cole' ];
-let ul = document.getElementById('bestfriends');
+const bestfriends = ['Jarred john Isaacs' , 'Mogamat Muddathir Dawood' , 'Marshalino Marcelo Jankowski', 'Abdus-Samad Charles' , 'Ikhlaas Mohhammed Rawoot' , ' Abdul Raees Benny ' , ' Dwayne Micheal Carter' , 'Gabriella Wilson' , 'Nikki Manaj ', 'j Cole' ];
+ console.log(bestfriends);
+ console.log(bestfriends[bestfriends.length/2])
+ console.log(bestfriends[bestfriends.length/-1])
+
+
+// let ul = document.getElementById('bestfriends');
 
 // display the name
-b1 = bestfriends[5];
- console.log(b1); 
+// b1 = bestfriends[5];
+//  console.log(b1); 
  //displayes the characters of the name
-b2 = bestfriends[5].length;
- console.log(b2);
+// b2 = bestfriends[5].length;
+//  console.log(b2);
 
-bestfriends.forEach((e) =>{
-    ul.innerHTML = `
+// bestfriends.forEach((e) =>{
+//     ul.innerHTML = `
 
-    <li> ${b1} </li> 
-    <li> ${b2} </li> 
-    `
-    ;
-});
+//     <li> ${b1} </li> 
+//     <li> ${b2} </li> 
+//     `
+//     ;
+// });
+
+
 
 
 // // Load items to an ul
